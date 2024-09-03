@@ -1,6 +1,6 @@
 ## Estructura de directorios y archivos
 
-    Analisis_sistema_educativo_Argentina/
+    analisis_comportamiento_del_consumidor/
     │
     ├── data/                          # Datasets
     │   ├── bronze/                    # Datos brutos
@@ -34,8 +34,10 @@
     - lxml
     - requests
 
+## Colaboradores del equipo c20-78-t:
+- [@ianCristianAriel](https://github.com/ianCristianAriel)
+- Agregarse aqui
+
 ## Estado del proyecto:
 - Finalizado 
-Colaboradores del equipo c20-78-t:
-- [@ianCristianAriel](https://github.com/ianCristianAriel)
-- 
+

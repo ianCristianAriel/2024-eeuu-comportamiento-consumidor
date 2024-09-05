@@ -36,7 +36,7 @@
 
 ## Colaboradores del equipo c20-78-t:
 - [@ianCristianAriel](https://github.com/ianCristianAriel)
-- Agregarse aqui
+- (https://github.com/nicostassi04)
 
 ## Estado del proyecto:
 - Finalizado 

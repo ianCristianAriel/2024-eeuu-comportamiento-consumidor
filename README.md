@@ -37,6 +37,7 @@
 ## Colaboradores del equipo c20-78-t:
 - [@ianCristianAriel](https://github.com/ianCristianAriel)
 - (https://github.com/nicostassi04)
+- Amalia Teresa Raimundo (www.linkedin.com/in/amalia-raimundo)
 
 ## Estado del proyecto:
 - Finalizado 

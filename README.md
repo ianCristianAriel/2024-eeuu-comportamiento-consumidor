@@ -40,5 +40,4 @@
 - Amalia Teresa Raimundo (www.linkedin.com/in/amalia-raimundo)
 
 ## Estado del proyecto:
-- Finalizado 
-
+- Finalizado

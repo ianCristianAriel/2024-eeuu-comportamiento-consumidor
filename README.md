@@ -38,7 +38,7 @@
 - [@ianCristianAriel](https://github.com/ianCristianAriel)
 - (https://github.com/nicostassi04)
 - Amalia Teresa Raimundo (www.linkedin.com/in/amalia-raimundo)
-- Luis Fernando Sánchez Romero (linkedin.com/in/luis-romerosr)
+- Luis Fernando Sánchez Romero (www.linkedin.com/in/luis-romerosr)
 
 ## Estado del proyecto:
 - Finalizado 

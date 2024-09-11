@@ -1,4 +1,4 @@
-customer_id,age,gender,item_purchased,category_item,purchase_amount_usd,location,size,color,season,review_rating,subscription_status,shipping_type,discount_applied,promo_code_used,previous_purchases,payment_method,frequency_of_purchases,vital_stages
+customer_id,age,gender,item_purchased,category,purchase_amount_usd,location,size,color,season,review_rating,subscription_status,shipping_type,discount_applied,promo_code_used,previous_purchases,payment_method,frequency_of_purchases,vital_stages
 1,55,male,blouse,clothing,53,kentucky,l,gray,winter,3.1,yes,express,yes,yes,14,venmo,bi-weekly,adulto
 2,19,male,sweater,clothing,64,maine,l,maroon,winter,3.1,yes,express,yes,yes,2,cash,bi-weekly,adolescente
 3,50,male,jeans,clothing,73,massachusetts,s,maroon,spring,3.1,yes,free shipping,yes,yes,23,credit card,weekly,adulto

@@ -1,4 +1,4 @@
-num__customer_id,num__age,num__purchase_amount_usd,num__review_rating,num__previous_purchases,ord__size,ord__subscription_status,ord__promo_code_used,ord__frequency_of_purchases,ord__vital_stages,ord__season,gender,item_purchased,category,location,color,shipping_type,payment_method
+num__customer_id,num__age,num__purchase_amount_usd,num__review_rating,num__previous_purchases,ord__size,ord__subscription_status,ord__promo_code_used,ord__frequency_of_purchases,ord__vital_stages,ord__season,nom__gender,nom__item_purchased,nom__category,nom__location,nom__color,nom__shipping_type,nom__payment_method
 -1.0,0.4230769230769231,-0.16666666666666666,-0.4615384615384615,-0.44,2.0,1.0,1.0,1.0,1.0,0.0,1,2,1,16,7,1,5
 -0.9994870479610156,-0.9615384615384616,0.09523809523809523,-0.4615384615384615,-0.92,2.0,1.0,1.0,1.0,0.0,0.0,1,23,1,18,12,1,1
 -0.9989740959220312,0.23076923076923078,0.30952380952380953,-0.4615384615384615,-0.08,0.0,1.0,1.0,0.0,1.0,1.0,1,11,1,20,12,2,2

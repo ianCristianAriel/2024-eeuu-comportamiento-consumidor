@@ -36,7 +36,7 @@ La estructura de directorios sigue una jerarquía organizada y modular para faci
 
 ## Metodología
 
-Este proyecto se basa en la metodología CRISP-DM (Cross Industry Standard Process for Data Mining), que consiste en las siguientes fases:
+La metodologia de este proyecto se basa en CRISP-DM (Cross Industry Standard Process for Data Mining), y consiste en las siguientes fases:
 
 1.	Comprensión del Negocio: Definir objetivos y preguntas clave para el análisis.
 2.	Comprensión de los Datos: Recopilación y exploración de los datos disponibles.
@@ -48,19 +48,21 @@ Este proyecto se basa en la metodología CRISP-DM (Cross Industry Standard Proce
 ## Instalación y Configuración
 Para ejecutar este proyecto localmente, sigue estos pasos:
 1.	Clona este repositorio:
+```bash
     git clone https://github.com/c20-78-t/analisis_comportamiento_del_consumidor.git
-    cd analisis_comportamiento_del_consumidor
 
+    cd analisis_comportamiento_del_consumidor
+```
 2. Instala las dependencias necesarias:
+```bash
     pip install -r requirements.txt
+```
 
 3.	Ejecuta los notebooks en el orden establecido para replicar el análisis.
 
 ## Colaboradores del equipo c20-78-t:
 - [@ianCristianAriel](https://github.com/ianCristianAriel)
 - (https://github.com/nicostassi04)
-- Amalia Teresa Raimundo (www.linkedin.com/in/amalia-raimundo)
-- Luis Fernando Sánchez Romero (www.linkedin.com/in/luis-romerosr)
 
 ## Estado del proyecto:
-- En proceso -> 75% completado
+- En proceso -> 80% completado (MVP completado)

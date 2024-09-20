@@ -38,12 +38,12 @@ La estructura de directorios sigue una jerarquía organizada y modular para faci
 
 La metodologia de este proyecto se basa en CRISP-DM (Cross Industry Standard Process for Data Mining), y consiste en las siguientes fases:
 
-1.	Comprensión del Negocio: Definir objetivos y preguntas clave para el análisis.
-2.	Comprensión de los Datos: Recopilación y exploración de los datos disponibles.
-3.	Tratamiento de los Datos: Limpieza, transformación y preprocesamiento.
-4.  Analisis exploratorio de datos: Exploracion descriptiva.
-5.	Modelado y Evaluación: Creacion y evaluacion de modelos de machine learning para predicción.
-6.	Visualizacion ejecutiva: Visualizacion con presentacion ejecutiva para recomendar accionables de negocio.
+1.	Comprensión del Negocio: Definir los objetivos y las preguntas clave para el análisis.
+2.	Comprensión de los Datos: Recopilar y explorar los datos disponibles.
+3.	Tratamiento de los Datos: Realizar la limpieza, transformación y preprocesamiento de los datos.
+4.	Análisis Exploratorio de Datos: Realizar una exploración descriptiva.
+5.	Modelado y Evaluación: Crear, evaluar, optimizar y seleccionar modelos de machine learning para predecir la probabilidad de suscripción a servicios personalizados.
+6.	Visualización Ejecutiva: Presentar visualizaciones y recomendaciones ejecutivas con accionables para el negocio.
 
 ## Instalación y Configuración
 Para ejecutar este proyecto localmente, sigue estos pasos:
@@ -59,10 +59,6 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 ```
 
 3.	Ejecuta los notebooks en el orden establecido para replicar el análisis.
-
-## Colaboradores del equipo c20-78-t:
-- [@ianCristianAriel](https://github.com/ianCristianAriel)
-- (https://github.com/nicostassi04)
 
 ## Estado del proyecto:
 - En proceso -> 80% completado (MVP completado)

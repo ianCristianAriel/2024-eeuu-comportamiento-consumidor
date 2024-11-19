@@ -62,3 +62,7 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 ## Estado del proyecto:
 - En proceso -> 80% completado (MVP completado)
+
+## Equipo c20-78-t-data-bi:
+- [Stassi, Nicolas](https://www.linkedin.com/in/nicol%C3%A1s-stassi/)
+- [Yané, Ian Cristian](https://www.linkedin.com/in/iancristianyane/)

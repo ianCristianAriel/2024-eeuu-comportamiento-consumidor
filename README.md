@@ -1,23 +1,69 @@
 ## Estructura de directorios y archivos
 La estructura de directorios sigue una jerarquía organizada y modular para facilitar la reproducibilidad y la colaboración. Cada etapa del pipeline de datos está claramente separada según el principio de bronze-silver-gold para garantizar calidad y trazabilidad de los datos.
 
-    analisis_comportamiento_del_consumidor/
-    │
-    ├── data/                          # Directorio principal de los datos
-    │   ├── 1_bronze/                  # Datos crudos (brutos) directamente obtenidos de las fuentes
-    │   ├── 2_silver/                  # Datos procesados y transformados (listos para ML y EDA)
-    │   └── 3_gold/                    # Datos finales, listos para la visualización o análisis avanzado
-    │
-    ├── models/                        # Modelos entrenados (mejores modelos para predecir la variable target)
-    │
-    ├── notebooks/                     # Cuadernos Jupyter de cada fase del proceso CRISP-DM
-    │   ├── 1_extraccion_comprension.ipynb  # Extracción y comprensión inicial de los datos
-    │   ├── 2_tratamiento.ipynb             # Tratamiento de datos: limpieza y preprocesamiento
-    │   ├── 3_eda.ipynb                     # Análisis exploratorio de los datos (EDA)
-    │   ├── 4_visualizacion.pbix            # Visualización interactiva de los resultados (Power BI)
-    │   └── 5_ml.ipynb                      # Modelado predictivo usando Machine Learning
-    │
-    └── requirements.txt               # Dependencias del proyecto (Python)
+  analisis_comportamiento_del_consumidor/
+  │
+  ├── artifacts/                                      # Artefactos generados durante el procesamiento y modelado
+  │   ├── .gitkeep
+  │   ├── preprocessor.joblib
+  │   └── top_columns.joblib
+  │
+  ├── data/                                           # Directorio principal de los datos
+  │   ├── 1_bronze/                                   # Datos originales obtenidos de las fuentes
+  │   │   ├── clients_behavior.csv
+  │   │   ├── shopping_behavior_updated.csv
+  │   │   └── shopping_trends.csv
+  │   │
+  │   ├── 2_silver/                                   # Datos transformados y preparados para el análisis
+  │   │   └── df_encoded_scaled.csv
+  │   │
+  │   └── 3_gold/                                     # Datos finales para análisis y visualización
+  │       └── df_processed.csv
+  │
+  ├── models/                                         # Modelos entrenados y recursos de visualización
+  │   ├── arbol_decision_sin_reduccion.png
+  │   └── subscription_status_decision_tree_base_model.pkl
+  │
+  ├── notebooks/                                      # Cuadernos y dashboard de las fases del proyecto
+  │   ├── __pycache__/                                # Caché de Python
+  │   │   └── transform_classes_and_functions.cpython-312.pyc
+  │   │
+  │   ├── 1_extract_comprehension.ipynb               # Extracción y comprensión inicial de los datos
+  │   ├── 2_transform.ipynb (private)                 # Tratamiento y transformación de los datos
+  │   ├── 3_exploratory_analysis.ipynb (private)      # Análisis exploratorio de los datos (EDA)
+  │   ├── 4_dashboard.pbix                            # Dashboard interactivo de Power BI
+  │   └── 5_machine_learning.ipynb                    # Modelado predictivo mediante Machine Learning
+  │
+  ├── reports/                                        # Informes y entregables del proyecto
+  │   ├── .gitkeep
+  │   └── c20_78-NO_COUNTRY.pbix
+  │
+  ├── src/                                            # Código fuente y funciones auxiliares de Python
+  │   ├── __pycache__/                                # Caché de Python
+  │   │   ├── average_cost.cpython-312.pyc
+  │   │   ├── custom_standarization_classes_and_functions.cpython-312.pyc
+  │   │   ├── eval_models.cpython-312.pyc
+  │   │   ├── experiment_evaluator.cpython-312.pyc
+  │   │   ├── experiment_factory.cpython-312.pyc
+  │   │   ├── experiment_tracker.cpython-312.pyc
+  │   │   └── model_optimizer.cpython-312.pyc
+  │   │
+  │   ├── .gitkeep
+  │   ├── average_cost.py (private)
+  │   ├── bins_estimator.py (private)
+  │   ├── custom_standarization_classes_and_functions.py (private)
+  │   ├── eval_models.py (private)
+  │   ├── experiment_evaluator.py (private)
+  │   ├── experiment_factory.py (private)
+  │   ├── experiment_tracker.py (private)
+  │   ├── feature_asosiation_with_target_column.py (private)
+  │   ├── model_optimizer.py (private)
+  │   └── tree_rules_to_table.py (private)
+  │
+  ├── .gitignore                                      # Reglas de exclusión de Git
+  ├── bussines_objetives.md                           # Objetivos de negocio del proyecto
+  ├── README.md                                       # Documentación principal del repositorio
+  └── requirements.txt                                # Dependencias del proyecto Python
 
 ## Tecnologías Utilizadas
 - Python

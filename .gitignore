@@ -4,3 +4,6 @@ notebooks/3_exploratory_analysis.ipynb
 ./notebooks/3_exploratory_analysis.ipynb
 src/*.py
 ./src/*.py
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]

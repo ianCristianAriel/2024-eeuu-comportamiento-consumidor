@@ -1,6 +1,7 @@
 ## Estructura de directorios y archivos
 La estructura de directorios sigue una jerarquía organizada y modular para facilitar la reproducibilidad y la colaboración. Cada etapa del pipeline de datos está claramente separada según el principio de bronze-silver-gold para garantizar calidad y trazabilidad de los datos.
 
+```plaintext
   analisis_comportamiento_del_consumidor/
   │
   ├── artifacts/                                      # Artefactos generados durante el procesamiento y modelado
@@ -64,6 +65,7 @@ La estructura de directorios sigue una jerarquía organizada y modular para faci
   ├── bussines_objetives.md                           # Objetivos de negocio del proyecto
   ├── README.md                                       # Documentación principal del repositorio
   └── requirements.txt                                # Dependencias del proyecto Python
+```
 
 ## Tecnologías Utilizadas
 - Python
